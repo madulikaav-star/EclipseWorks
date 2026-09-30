@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-17T22:18:14 IST" name="Default suite" finished-at="2026-09-17T22:18:33 IST" duration-ms="19072">
+    <groups>
+    </groups>
+    <test started-at="2026-09-17T22:18:14 IST" name="Default test" finished-at="2026-09-17T22:18:33 IST" duration-ms="19072">
+      <class name="TestNgBasics.MultipleTabsOpening">
+        <test-method is-config="true" signature="Browserloading()[pri:0, instance:TestNgBasics.MultipleTabsOpening@43c1b556]" started-at="2026-09-17T22:18:14 IST" name="Browserloading" finished-at="2026-09-17T22:18:17 IST" duration-ms="3116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserloading -->
+        <test-method is-config="true" signature="urlLoading()[pri:0, instance:TestNgBasics.MultipleTabsOpening@43c1b556]" started-at="2026-09-17T22:18:17 IST" name="urlLoading" finished-at="2026-09-17T22:18:19 IST" duration-ms="1568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLoading -->
+        <test-method signature="multipleTabHandling()[pri:0, instance:TestNgBasics.MultipleTabsOpening@43c1b556]" started-at="2026-09-17T22:18:19 IST" name="multipleTabHandling" finished-at="2026-09-17T22:18:33 IST" duration-ms="14287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleTabHandling -->
+      </class> <!-- TestNgBasics.MultipleTabsOpening -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

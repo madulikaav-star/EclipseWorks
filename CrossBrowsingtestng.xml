@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">               <!-- refer crossbrowsingBasics class-->
+<suite name="Suite">
+
+  <test thread-count="5" name="ChromeTest">
+  <parameter name="Browser" value="Chrome"></parameter>           <!--this will chrome-->>
+    <classes>
+      <class name="TestNgBasics.CrossBrowsingBasic"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="EdgeTest">
+  <parameter name="Browser" value="Edge"></parameter>              <!--this will open in edge-->
+    <classes>
+      <class name="TestNgBasics.CrossBrowsingBasic"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
